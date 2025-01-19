@@ -1,5 +1,6 @@
 "use client" // Because we'll do client-side CSV parsing and charting
 import React, { useState } from 'react';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import Papa from 'papaparse';
 import { Bar } from 'react-chartjs-2';

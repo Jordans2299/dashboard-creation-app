@@ -56,7 +56,7 @@ export default function AboutPage() {
         <p className="mb-4 text-sm text-gray-600">
           Founded in 2025, we started as a small startup with a big idea: 
           to simplify the way real estate agents handle their data. Since then, 
-          we've grown into a passionate team dedicated to delivering insights 
+          we&apos;ve grown into a passionate team dedicated to delivering insights 
           that truly make a difference.
         </p>
       </section>
@@ -137,7 +137,7 @@ export default function AboutPage() {
           Want to Learn More?
         </h2>
         <p className="mb-4 text-sm text-gray-600">
-          We're always happy to chat about our platform or discuss partnership 
+          We&apos;re always happy to chat about our platform or discuss partnership 
           opportunities. Get in touch and let’s explore how we can help you 
           succeed in the real estate market.
         </p>
