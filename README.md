@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Real Estate KPI Dashboard (Next.js 13 + Tailwind)
+
+A simple MVP for uploading CSV files and visualizing real estate KPIs in a clean UI. Built with Next.js 13 (App Router), Tailwind CSS, and Chart.js via react-chartjs-2. Ideal for validating early-stage ideas and gathering user feedback.
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Running Locally](#running-locally)
+- [Usage](#usage)
+  - [Uploading CSV Data](#uploading-csv-data)
+  - [Visualizing Data](#visualizing-data)
+  - [Pages](#pages)
+- [Deployment](#deployment)
+- [Project Structure](#project-structure)
+- [Roadmap & Next Steps](#roadmap--next-steps)
+- [License](#license)
+- [Credits](#credits)
+
+---
+
+## Overview
+
+This MVP application allows a real estate agent—or any user with CSV data—to upload their file, quickly preview the contents, and generate a bar chart for key metrics (e.g., price, rooms, days on market, etc.). It also includes an “About” page and basic navigation (header, footer) to demonstrate a more polished UI.
+
+---
+
+## Features
+
+1. **CSV Upload**: Paste CSV text or upload a `.csv` file directly.
+2. **Instant Parsing**: Uses [Papa Parse](https://www.papaparse.com/) to process data client-side.
+3. **Data Preview**: Shows up to a set number of rows (to prevent huge tables).
+4. **Dynamic Charting**: Select a column to display as a bar chart (via Chart.js).
+5. **Responsive UI**: Styled with Tailwind CSS for a modern, consistent look.
+6. **Navigation & Layout**: Global header, footer, hero sections for a professional feel.
+7. **About Page**: Example “company” overview with mission, story, and team sections.
+
+---
+
+## Tech Stack
+
+- **[Next.js 13 (App Router)](https://nextjs.org/docs/app)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+- **[Tailwind CSS](https://tailwindcss.com/)**
+- **[Papa Parse](https://www.papaparse.com/)** for CSV parsing
+- **[react-chartjs-2](https://react-chartjs-2.js.org/) + [Chart.js](https://www.chartjs.org/)**
+- **ESLint & Prettier** for code linting and formatting
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone** the repo:
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
