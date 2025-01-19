@@ -12,15 +12,6 @@ A simple MVP for uploading CSV files and visualizing real estate KPIs in a clean
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Running Locally](#running-locally)
-- [Usage](#usage)
-  - [Uploading CSV Data](#uploading-csv-data)
-  - [Visualizing Data](#visualizing-data)
-  - [Pages](#pages)
-- [Deployment](#deployment)
-- [Project Structure](#project-structure)
-- [Roadmap & Next Steps](#roadmap--next-steps)
-- [License](#license)
-- [Credits](#credits)
 
 ---
 
@@ -59,5 +50,21 @@ This MVP application allows a real estate agent—or any user with CSV data—to
 
 1. **Clone** the repo:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/Jordans2299/dashboard-creation-app.git
+   cd csv-dashboard-poc
+
+2. Install dependencies:
+    ```npm install
+    # or
+    yarn install
+
+### Running Locally
+
+1. Development server:
+    ``` bash
+    Copy
+    npm run dev
+    # or
+    yarn dev
+
+2. Open http://localhost:3000 in your browser to see the app.
